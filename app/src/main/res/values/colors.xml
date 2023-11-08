@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FFFFFF</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="dark_gray">#414141</color>
+    <color name="light_gray">#F0F0F0</color>
+    <color name="hot_pint">#F42A59</color>
+    <color name="text_color">#9E3B06</color>
+    <color name="background_color">#EEDFD8</color>
+    <color name="ageTextColor">#FFFFFF</color>
+    <color name="ageTextBackGroundColor">#529DEC</color>
+    <color name="buttonColor">#F9FFF9</color>
+    <color name="dateColor">#60913503</color>
+    <!-- Here you can add color of your choice  -->
+    <color name="ucrop_color_toolbar">#CA7206</color>
+    <color name="ucrop_color_statusbar">#429FE6</color>
+    <color name="ucrop_color_widget_active">#FF9800</color>
+    <style name="Button.Pink" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@color/hot_pint</item>
+    </style>
+</resources>

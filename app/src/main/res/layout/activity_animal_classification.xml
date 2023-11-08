@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnimalClassificationActivity"
+    android:background="#292828"
+
+
+    >
+<!--
+ <androidx.cardview.widget.CardView
+        android:layout_width="123dp"
+        android:layout_height="38dp"
+        android:layout_below="@+id/text3"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="24dp"
+        app:cardCornerRadius="5dp">
+
+        <RelativeLayout
+            android:id="@+id/RetryButton"
+            android:layout_width="122dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:background="@color/ageTextBackGroundColor"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/ic_paw"
+                android:clickable="false"
+                android:text="Try Again!" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="11dp"
+                android:layout_marginEnd="12dp"
+                android:clickable="false"
+                android:fontFamily="@font/actor"
+                android:text="Try Again!"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+ -->
+
+
+    <!--
+    <androidx.cardview.widget.CardView
+        android:layout_width="123dp"
+        android:layout_height="38dp"
+        android:layout_below="@+id/text3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="30dp"
+        app:cardCornerRadius="5dp">
+
+
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/wikipediaLink"
+            android:layout_width="122dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:background="@color/hot_pint"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/ic_wikipedia_w"
+                android:clickable="false"
+                android:text="Learn More!" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="11dp"
+                android:layout_marginEnd="12dp"
+                android:clickable="false"
+                android:fontFamily="@font/actor"
+                android:text="Learn More"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+   -->
+
+    <ImageView
+        android:id="@+id/imageView"
+
+        android:layout_width="335dp"
+        android:layout_height="303dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        app:layout_constraintVertical_bias="0.523"
+        tools:srcCompat="@drawable/pexels_lumn_406014" />
+
+
+    <TextView
+        android:id="@+id/ClassificationText"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="128dp"
+
+        android:text="What breed are you?"
+        android:textColor="#FFC107"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+
+        android:id="@+id/textView"
+
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:text="want to learn more?"
+        android:textColor="#FFC107"
+        android:textSize="25sp"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.629"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:layout_constraintRight_toRightOf="parent"
+
+
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.134" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/backButton"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="44dp"
+        android:backgroundTint="#FFC107"
+        android:clickable="true"
+        app:layout_constraintEnd_toStartOf="@+id/wikipediaLink"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/cast_ic_notification_rewind" />
+
+    <android.widget.Button
+
+        android:id="@+id/wikipediaLink"
+        android:layout_width="181dp"
+        android:layout_height="64dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/buttonoutlinedrawable"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Go To Wiki "
+        android:textColor="#FFC107"
+        android:textSize="20dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.795"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+
+        app:layout_constraintVertical_bias="0.527" />
+
+    <ImageView
+
+        android:id="@+id/imageView3"
+        android:layout_width="63dp"
+        android:layout_height="86dp"
+        android:layout_alignParentEnd="true"
+
+        android:layout_alignParentBottom="true"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ClassificationText"
+        app:layout_constraintVertical_bias="0.969"
+        app:srcCompat="@drawable/ic_paw"
+        app:tint="#FFC107" />
+
+</androidx.constraintlayout.widget.ConstraintLayout >
